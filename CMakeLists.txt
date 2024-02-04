@@ -33,7 +33,6 @@ FetchContent_Declare(Boost
 
 FetchContent_Declare(MeddySDK
   SOURCE_DIR "${MeddySDKWithDependencies_SOURCE_DIR}/MeddySDK"
-  SOURCE_SUBDIR "MeddySDK"
   OVERRIDE_FIND_PACKAGE
   )
 
