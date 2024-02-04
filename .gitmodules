@@ -1,0 +1,3 @@
+[submodule "MeddySDK"]
+	path = MeddySDK
+	url = https://github.com/ChristianHinko/MeddySDK.git
