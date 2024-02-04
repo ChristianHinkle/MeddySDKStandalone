@@ -26,6 +26,11 @@ include(FetchContent)
 # declarations refer to them by directory path.
 #
 
+FetchContent_Declare(Boost
+  SOURCE_DIR "${MeddySDKWithDependencies_SOURCE_DIR}/boost"
+  OVERRIDE_FIND_PACKAGE
+  )
+
 FetchContent_Declare(MeddySDK
   SOURCE_DIR "${MeddySDKWithDependencies_SOURCE_DIR}/MeddySDK"
   SOURCE_SUBDIR "MeddySDK"
@@ -40,5 +45,7 @@ FetchContent_Declare(MeddySDK
 # guards against adding subdirectories multiple times. That's prone to happening
 # when a project is needed as a dependency several times.
 #
+
+FetchContent_MakeAvailable(Boost)
 
 FetchContent_MakeAvailable(MeddySDK)
