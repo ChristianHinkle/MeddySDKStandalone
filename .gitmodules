@@ -1,6 +1,7 @@
 [submodule "MeddySDK"]
 	path = MeddySDK
 	url = https://github.com/ChristianHinko/MeddySDK.git
+	branch = master
 [submodule "boost"]
 	path = boost
 	url = https://github.com/boostorg/boost.git
