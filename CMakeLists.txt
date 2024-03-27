@@ -2,7 +2,7 @@
 
 cmake_minimum_required(VERSION 3.24)
 
-project(MeddySDKWithDependencies LANGUAGES CXX)
+project(MeddySDKStandalone LANGUAGES CXX)
 
 #
 # We want to be build interface users of our subprojects instead of install
@@ -28,12 +28,12 @@ include(FetchContent)
 #
 
 FetchContent_Declare(Boost
-  SOURCE_DIR "${MeddySDKWithDependencies_SOURCE_DIR}/boost"
+  SOURCE_DIR "${MeddySDKStandalone_SOURCE_DIR}/boost"
   OVERRIDE_FIND_PACKAGE
   )
 
 FetchContent_Declare(MeddySDK
-  SOURCE_DIR "${MeddySDKWithDependencies_SOURCE_DIR}/MeddySDK"
+  SOURCE_DIR "${MeddySDKStandalone_SOURCE_DIR}/MeddySDK"
   OVERRIDE_FIND_PACKAGE
   )
 

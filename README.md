@@ -1,1 +1,1 @@
-# MeddySDKWithDependencies
+# MeddySDKStandalone
