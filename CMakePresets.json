@@ -1,5 +1,5 @@
 {
-    "version": 3,
+    "version": 7,
     "configurePresets": [
         {
             "name": "windows-base",
@@ -96,6 +96,17 @@
                     "sourceDir": "$env{HOME}/.vs/$ms{projectDirName}"
                 }
             }
+        }
+    ],
+    "packagePresets": [
+        {
+            "name": "meddysdkcli-nsis-x64-debug",
+            "displayName": "MeddySDKCLI (NSIS) (x64 Debug)",
+            "configurePreset": "x64-debug",
+            "generators": [
+                "NSIS"
+            ],
+            "configFile": "MeddySDKCLI/CPackConfig.cmake"
         }
     ]
 }
