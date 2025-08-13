@@ -33,12 +33,12 @@ include(FetchContent)
 #
 
 FetchContent_Declare(Boost
-  SOURCE_DIR "${MeddySDKStandalone_SOURCE_DIR}/boost"
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/boost"
   OVERRIDE_FIND_PACKAGE
   )
 
 FetchContent_Declare(MeddySDK
-  SOURCE_DIR "${MeddySDKStandalone_SOURCE_DIR}/MeddySDK"
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/MeddySDK"
   OVERRIDE_FIND_PACKAGE
   )
 
