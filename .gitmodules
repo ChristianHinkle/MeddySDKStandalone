@@ -5,3 +5,6 @@
 [submodule "boost"]
 	path = boost
 	url = https://github.com/boostorg/boost.git
+[submodule "GeneralCMakePresets"]
+	path = GeneralCMakePresets
+	url = https://github.com/ChristianHinko/GeneralCMakePresets.git
