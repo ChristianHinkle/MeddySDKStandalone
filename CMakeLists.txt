@@ -51,8 +51,6 @@ FetchContent_Declare(MeddySDK
 # when a project is needed as a dependency several times.
 #
 
-# Boost is disabled, as we are not currently using it, and it takes forever to configure and
-# build when it's enabled.
-#FetchContent_MakeAvailable(Boost)
+FetchContent_MakeAvailable(Boost)
 
 FetchContent_MakeAvailable(MeddySDK)
