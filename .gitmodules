@@ -8,3 +8,6 @@
 [submodule "GeneralCMakePresets"]
 	path = GeneralCMakePresets
 	url = https://github.com/ChristianHinko/GeneralCMakePresets.git
+[submodule "CppUtils"]
+	path = CppUtils
+	url = https://github.com/ChristianHinkle/CppUtils.git
