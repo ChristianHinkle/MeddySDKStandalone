@@ -40,6 +40,9 @@ FetchContent_Declare(CppUtils
 FetchContent_Declare(Boost
   SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/boost"
   OVERRIDE_FIND_PACKAGE
+  # Exclude boost from the "all" build target because it is very big and there's no point to building the
+  # entirety of the boost libraries anyway.
+  EXCLUDE_FROM_ALL
   )
 
 FetchContent_Declare(MeddySDK
