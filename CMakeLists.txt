@@ -2,7 +2,9 @@
 
 cmake_minimum_required(VERSION 4.0)
 
-project(MeddySDKStandalone LANGUAGES CXX)
+project(MeddySDKStandalone
+  LANGUAGES CXX
+  )
 
 # Set up testing. Defines `BUILD_TESTING` which is ON by default. This must be called by the top-level project only.
 if(PROJECT_IS_TOP_LEVEL)
@@ -50,7 +52,7 @@ FetchContent_Declare(MeddySDK
   OVERRIDE_FIND_PACKAGE
   )
 
-FetchContent_Declare(MeddySDKCLI
+FetchContent_Declare(MeddyCLI
   SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/MeddyCLI"
   OVERRIDE_FIND_PACKAGE
   )
@@ -70,4 +72,4 @@ FetchContent_MakeAvailable(Boost)
 
 FetchContent_MakeAvailable(MeddySDK)
 
-FetchContent_MakeAvailable(MeddySDKCLI)
+FetchContent_MakeAvailable(MeddyCLI)
