@@ -1,5 +1,9 @@
-# MeddySDKStandalone
+# MeddySuperproject
 
-A setup for [MeddySDK](https://github.com/ChristianHinko/MeddySDK) including third-party dependencies such as the Boost C++ Libraries.
+The superproject for all Meddy repositories
+- [MeddySDK](https://github.com/ChristianHinkle/MeddySDK)
+- [MeddyCLI](https://github.com/ChristianHinkle/MeddyCLI)
 
-See [MeddySDK](https://github.com/ChristianHinko/MeddySDK) for full documentation.
+This also includes third-party dependencies
+- [CppUtils](https://github.com/ChristianHinkle/CppUtils)
+- [The Boost C++ Libraries](https://github.com/boostorg/boost)

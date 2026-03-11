@@ -2,7 +2,7 @@
 
 cmake_minimum_required(VERSION 4.0)
 
-project(MeddySDKStandalone
+project(MeddySuperproject
   LANGUAGES CXX
   )
 
