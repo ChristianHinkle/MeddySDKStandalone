@@ -2,6 +2,11 @@
 
 The superproject for all Meddy repositories as well as their third-party dependencies.
 
+Key benefits of this project structure I designed:
+- Fulfills any CMake use case (namely, installation and local build use cases).
+- Keeps dependencies isolated and accessible via `find_package` along with FetchContent or ExternalProject.
+- Wrote automated tests with CTest, distributed products with CPack, and wrote reusable CMakePresets.
+
 ## Project Structure 📂
 
 Meddy repositories
