@@ -1,13 +1,13 @@
 [submodule "MeddySDK"]
 	path = MeddySDK
-	url = https://github.com/ChristianHinko/MeddySDK.git
+	url = https://github.com/ChristianHinkle/MeddySDK.git
 	branch = master
 [submodule "boost"]
 	path = boost
 	url = https://github.com/boostorg/boost.git
 [submodule "GeneralCMakePresets"]
 	path = GeneralCMakePresets
-	url = https://github.com/ChristianHinko/GeneralCMakePresets.git
+	url = https://github.com/ChristianHinkle/GeneralCMakePresets.git
 [submodule "CppUtils"]
 	path = CppUtils
 	url = https://github.com/ChristianHinkle/CppUtils.git
