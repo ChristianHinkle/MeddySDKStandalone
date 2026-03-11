@@ -11,3 +11,6 @@
 [submodule "CppUtils"]
 	path = CppUtils
 	url = https://github.com/ChristianHinkle/CppUtils.git
+[submodule "MeddyCLI"]
+	path = MeddyCLI
+	url = https://github.com/ChristianHinkle/MeddyCLI

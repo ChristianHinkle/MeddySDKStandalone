@@ -12,6 +12,7 @@
     "include": [
         "${sourceDir}/GeneralCMakePresets/CMakePresets.json",
         "MeddySDK/CMakePresets.json",
+        "MeddyCLI/CMakePresets.json",
         "CppUtils/CMakePresets.json"
     ]
 }
